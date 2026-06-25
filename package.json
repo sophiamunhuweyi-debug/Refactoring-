@@ -1,0 +1,13 @@
+{
+  "name": "vanguard-monorepo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:integration": "node --experimental-vm-modules node_modules/.bin/jest src/integration-tests/__tests__/inquiry-flow.test.js --forceExit --detectOpenHandles"
+  },
+  "dependencies": {
+    "@jest/globals": "^30.4.1",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
